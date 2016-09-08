@@ -1,0 +1,17 @@
+
+public class TestQueue {
+	public static void main(String[] args){
+		Queue<Integer> queue = new MyQueue<>();
+		queue.push(1);
+		queue.push(2);
+		queue.push(3);
+		queue.push(4);
+		queue.push(5);
+		System.out.println(queue.poll());
+		System.out.println(queue.poll());
+		System.out.println(queue.poll());
+		System.out.println(queue.poll());
+		System.out.println(queue.poll());
+		
+	}
+}
